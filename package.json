@@ -1,0 +1,30 @@
+{
+  "name": "karlo-shop-backend",
+  "version": "1.0.0",
+  "description": "Backend de una tienda en linea",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseManuelMendozaMurillo/karlo-shop-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JoseManuelMendozaMurillo/karlo-shop-backend/issues"
+  },
+  "homepage": "https://github.com/JoseManuelMendozaMurillo/karlo-shop-backend#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
